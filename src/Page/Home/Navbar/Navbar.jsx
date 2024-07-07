@@ -1,6 +1,6 @@
-import { CiBookmark } from "react-icons/ci";
+ 
 import { IoIosArrowDown } from "react-icons/io";
-import { MdAddShoppingCart } from "react-icons/md";
+ 
 
 
 const Navbar = () => {
