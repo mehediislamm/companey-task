@@ -14,7 +14,7 @@ const SignIn = () => {
                 </div>
             </div>
             {/* google  */}
-            <div className="flex justify-center gap-3 items-center border border-[#8162A2] w-96 rounded-md mb-5">
+            <div className="flex justify-center gap-3 items-center border border-[#8162A2] w-80 rounded-md mb-5">
                 <div>
                     <FcGoogle />
                 </div>
@@ -23,7 +23,8 @@ const SignIn = () => {
                 </div>
             </div>
             {/* Factbook  */}
-            <div className="flex mb-5 justify-center gap-3 items-center border border-[#8162A2] w-96 rounded-md">
+            <div className="flex mb-5 justify-center gap-3 items-center border border-[#8162A2] w-80
+             rounded-md">
                 <div>
                     <FaFacebook />
                 </div>
