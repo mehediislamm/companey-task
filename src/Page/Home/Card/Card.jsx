@@ -10,9 +10,9 @@ const Card = () => {
         <div  className="p-5 md:p-0">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
                 {/* 1st div  */}
-                <div className="border border-[#8162A2] rounded-md">
+                <div className="border border-[#8162A2] hover:bg-[#8162A2] hover:text-white rounded-md">
                     <div className="flex gap-2  items-center pt-4 pl-3 ">
-                        <IoIosPeople className="text-[#8162A2]" />
+                        <IoIosPeople className="text-[#8162A2] hover:text-white" />
                         <h3 className="font-bold">People</h3>
                     </div>
                     <p className="p-3 pb-3">Find a teacher, coach, or expert for your hobby interest in your locality.  Find a partner, teammate, accompanist or collaborator.</p>
@@ -20,9 +20,9 @@ const Card = () => {
                     <button className="btn m-3 border btn-xs border-[#8162A2]">Connect</button>
                 </div>
                 {/* 2nd div  */}
-                <div className="border border-[#8162A2] rounded-md">
+                <div className="border border-[#77943D] rounded-md hover:bg-[#77943D] hover:text-white">
                     <div className="flex  gap-2 items-center pt-4 pl-3 ">
-                        <MdPlace className="text-[#77943D]" />
+                        <MdPlace className="text-[#77943D] hover:text-white" />
                         <h3 className="font-bold" >Place</h3>
                     </div>
                     <p className="p-3 pb-3">Find a class, school, playground, auditorium, studio, shop or an event venue.  Book a slot at venues that allow booking through hobbycue.</p>
@@ -31,9 +31,9 @@ const Card = () => {
                     <button className="btn m-3 border btn-xs border-[#8162A2]">Meet up</button>
                 </div>
                 {/* 3rd div  */}
-                <div className="border border-[#8162A2] rounded-md">
+                <div className="border border-[#B8505D] hover:bg-[#B8505D] hover:text-white rounded-md">
                     <div className="flex gap-2  items-center pt-4 pl-3 ">
-                        <FaBagShopping className="text-[#B8505D]" />
+                        <FaBagShopping className="text-[#B8505D] hover:text-white" />
                         <h3 className="font-bold">Product</h3>
                     </div>
                     <p className="p-3 pb-3">Find a teacher, coach, or expert for your hobby interest in your locality.  Find a partner, teammate, accompanist or collaborator.</p>
@@ -41,9 +41,9 @@ const Card = () => {
                     <button className="btn m-3 border btn-xs border-[#8162A2]">Connect</button>
                 </div>
                 {/* 4th div  */}
-                <div className="border border-[#8162A2] rounded-md">
+                <div className="border border-[#3C94C8] hover:bg-[#3C94C8] hover:text-white rounded-md">
                     <div className="flex gap-2  items-center pt-4 pl-3 ">
-                        <CiCalendarDate className="text-[#3C94C8]" />
+                        <CiCalendarDate className="text-[#3C94C8] hover:text-white" />
                         <h3 className="font-bold">Program</h3>
                     </div>
                     <p className="p-3 pb-3">Find events, meetups and workshops related to your hobby.  Register or buy tickets online.</p>
