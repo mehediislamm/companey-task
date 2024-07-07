@@ -5,7 +5,7 @@ import { FcGoogle } from "react-icons/fc";
 
 const SignIn = () => {
     return (
-        <div className="ml-14 md:ml-0">
+        <div className="">
             <div className=" flex gap-5 mb-5 mt-5 ">
                 <div role="tablist" className="tabs tabs-bordered">
                     <a role="tab" className="tab">Sign In</a>

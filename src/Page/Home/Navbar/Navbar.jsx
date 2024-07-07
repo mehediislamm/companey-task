@@ -54,7 +54,7 @@ const Navbar = () => {
                     </div>
 
                     <div className="dropdown p-5">
-                        <div tabIndex={0} role="button" className="btn btn-xs m-1">Explore  <IoIosArrowDown /></div>
+                        <div tabIndex={0} role="button" className=" btn btn-xs m-1">Explore  <IoIosArrowDown /></div>
                         <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
                             <li><a>People-community</a></li>
                             <li><a>place-Venues</a></li>
@@ -80,9 +80,7 @@ const Navbar = () => {
                         </svg>
                     </button>
 
-                    <div>
-                        <CiBookmark />
-                    </div>
+                    
 
                     <button className="btn btn-ghost btn-circle">
                         <div className="indicator">
@@ -101,12 +99,8 @@ const Navbar = () => {
                             <span className="badge badge-xs badge-primary indicator-item"></span>
                         </div>
                     </button>
-                    <div>
-                        <MdAddShoppingCart />
-                    </div>
-                    <div className="p-2">
-                        <button className="btn btn-xs">Sign In</button>
-                    </div>
+                    
+                    
                 </div>
             </div>
         </div>
